@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.change {
+  @apply hover:border-2 hover:border-softred hover:bg-transparent hover:text-softred transition ease-in-out duration-300;
+}
+.trans {
+  @apply transition ease-in-out duration-300;
+}
+.change2 {
+  @apply hover:border-2  hover:h-full hover:w-full hover:flex hover:items-center hover:justify-center hover:py-2 hover:border-white rounded-md;
+}
+#menu.active {
+  @apply translate-y-0;
+}

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/output.css" />
+  </head>
+  <body class="font-myfont">
+    <header class="relative">
+      <div class="flex justify-between items-center md:pl-4 md:pr-10">
+        <div class="flex justify-between items-center px-6 py-7 w-full">
+          <a href="#"
+            ><img src="images/logo-bookmark.svg" alt="logo-bookmark"
+          /></a>
+          <img
+            src="images/icon-hamburger.svg"
+            class="md:hidden"
+            alt="icon-hamburger"
+            id="open-btn"
+          />
+        </div>
+        <div class="hidden md:block">
+          <nav>
+            <ul
+              class="flex justify-center items-center gap-10 text-sm uppercase font-medium"
+            >
+              <li
+                class="hover:text-softred tracking-wider cursor-pointer trans"
+              >
+                Features
+              </li>
+              <li
+                class="hover:text-softred tracking-wider cursor-pointer trans"
+              >
+                Pricing
+              </li>
+              <li
+                class="hover:text-softred tracking-wider cursor-pointer trans"
+              >
+                Contact
+              </li>
+              <li
+                class="bg-softred change tracking-wider text-white px-5 py-2 flex items-center justify-center rounded-md cursor-pointer"
+              >
+                Login
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div
+        class="fixed translate-y-full md:hidden top-0 w-screen left-0 right-0 h-screen bg-darkblue bg-opacity-90 z-10"
+        id="menu"
+      >
+        <div class="bg-darkblue bg-opacity-70 h-screen relative md:hidden">
+          <div class="flex justify-between mb-4 items-center px-6 py-7">
+            <img src="images/change.svg" alt="logo-bookmark" />
+            <img src="images/icon-close.svg" alt="icon-close" id="close-btn" />
+          </div>
+          <ul class="text-lg uppercase text-white font-normal px-8 min-w-min">
+            <li
+              class="border-t border-gray1 py-4 flex items-center justify-center"
+            >
+              <a href="#" class="change2 w-full text-center">Features</a>
+            </li>
+            <li
+              class="border-t border-gray1 flex justify-center items-center py-4"
+            >
+              <a href="#" class="change2 w-full text-center">Pricing</a>
+            </li>
+            <li
+              class="border-t border-gray1 flex justify-center items-center py-4"
+            >
+              <a href="#" class="change2 w-full text-center">Contact</a>
+            </li>
+            <li
+              class="border-t border-gray1 flex justify-center items-center py-4"
+            >
+              <a href="#" class="change2 w-full text-center">Login</a>
+            </li>
+          </ul>
+          <div
+            class="flex items-center justify-center absolute bottom-12 w-full left-0"
+          >
+            <a href="#" class="inline-flex mr-7"
+              ><img src="images/icon-facebook.svg" alt="icon-facebook"</a
+            >
+            <a href="#" class="inline-flex"
+              ><img src="images/icon-twitter.svg" alt="icon-twitter"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="mb-20">
+        <div class="">
+          <img
+            class="w-full px-5"
+            src="images/illustration-hero.svg"
+            alt="illustration-hero"
+          />
+        </div>
+        <div class="px-6">
+          <h2
+            class="text-center font-semibold min-[450px]:text-4xl min-[555px]:text-5xl sm:text-5xl text-3xl mb-3 leading-10"
+          >
+            A Simple Bookmark Manager
+          </h2>
+          <p class="text-center leading-6 text-grayishblue mb-6">
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+          <div class="text-sm flex items-center justify-around">
+            <button
+              type="button"
+              class="bg-softblue px-4 py-3 rounded-md text-white font-medium"
+            >
+              Get it on Chrome
+            </button>
+            <button
+              type="button"
+              class="px-4 py-3 rounded-md bg-gray-100 text-black border border-gray-100 drop-shadow-xl font-medium"
+            >
+              Get it on Firefox
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="px-5">
+        <div>
+          <h2 class="font-semibold text-3xl text-center mb-4">Features</h2>
+          <p class="text-center text-grayishblue">
+            Our aim is to make it quick and easy for you to access your
+            favourite websites. Your bookmarks sync between your devices so you
+            can access them on the go.
+          </p>
+        </div>
+        <div>
+          <ul class="text-center mb-4 mt-6 text-xl font-normal">
+            <li class="border-t border-gray1 py-4">
+              <span
+                class="underline-offset-under underline decoration-softred decoration-4"
+                >Simple Bookmarking</span
+              >
+            </li>
+            <li class="border-t border-gray1 py-4">
+              <span>Speedy Searching</span>
+            </li>
+            <li class="border-t border-b border-gray1 py-4">
+              <span class="">Easy Sharing</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="px-6 py-6">
+        <div>
+          <img
+            src="images/illustration-features-tab-1.svg"
+            alt="illustration-features-tab-1"
+            class="w-full mb-16"
+          />
+        </div>
+        <div>
+          <h2 class="font-semibold text-2xl text-center mb-4">
+            Bookmark in one click
+          </h2>
+          <p class="text-center text-grayishblue">
+            Organize your bookmarks however you like. Our simple drag-and-drop
+            interface gives you complete control over how you manage your
+            favourite sites.
+          </p>
+          <div>
+            <button class="hidden md:block">More Info</button>
+          </div>
+        </div>
+      </section>
+      <section class="px-6 py-6 hidden">
+        <div>
+          <img
+            src="images/illustration-features-tab-2.svg"
+            alt="illustration-features-tab-1"
+            class="w-full mb-16"
+          />
+        </div>
+        <div>
+          <h2 class="font-semibold text-2xl text-center mb-4">
+            Intelligent search
+          </h2>
+          <p class="text-center text-grayishblue">
+            Our powerful search feature will help you find saved sites in no
+            time at all. No need to trawl through all of your bookmarks.
+          </p>
+          <div>
+            <button class="hidden md:block">More Info</button>
+          </div>
+        </div>
+      </section>
+      <section class="px-6 py-6 hidden">
+        <div>
+          <img
+            src="images/illustration-features-tab-3.svg"
+            alt="illustration-features-tab-1"
+            class="w-full mb-16"
+          />
+        </div>
+        <div>
+          <h2 class="font-semibold text-2xl text-center mb-4">
+            Share your bookmarks
+          </h2>
+          <p class="text-center text-grayishblue">
+            Easily share your bookmarks and collections with others. Create a
+            shareable link that you can send at the click of a button.
+          </p>
+          <div>
+            <button class="hidden md:block">More Info</button>
+          </div>
+        </div>
+      </section>
+      <section class="px-8">
+        <div>
+          <h2 class="font-semibold text-2xl text-center mb-4">
+            Download the extension
+          </h2>
+          <p class="text-center text-grayishblue mb-5">
+            We’ve got more browsers in the pipeline. Please do let us know if
+            you’ve got a favourite you’d like us to prioritize.
+          </p>
+        </div>
+        <div>
+          <div
+            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-2xl rounded-xl mb-6"
+          >
+            <img
+              src="images/logo-chrome.svg"
+              class="w-20 mb-3"
+              alt="logo-chrome"
+            />
+            <h2 class="font-semibold text-xl text-center mb-4">
+              Add to Chrome
+            </h2>
+            <p class="text-grayishblue mb-10">Minimum version 62</p>
+            <img src="images/bg-dots.svg" class="mb-5" alt="bg-dots" />
+            <button
+              class="bg-softblue px-4 py-3 rounded-md text-white font-medium"
+            >
+              Add & Install Extension
+            </button>
+          </div>
+          <div
+            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-xl rounded-xl mb-6"
+          >
+            <img
+              src="images/logo-firefox.svg"
+              class="w-20 mb-3"
+              alt="logo-firefox"
+            />
+            <h2 class="font-semibold text-xl text-center mb-4">
+              Add to Firefox
+            </h2>
+            <p class="text-grayishblue mb-10">Minimum version 55</p>
+            <img src="images/bg-dots.svg" class="mb-5" alt="bg-dots" />
+            <button
+              class="bg-softblue px-4 py-3 rounded-md text-white font-medium"
+            >
+              Add & Install Extension
+            </button>
+          </div>
+          <div
+            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-2xl rounded-xl mb-3"
+          >
+            <img
+              src="images/logo-opera.svg"
+              class="w-20 mb-3"
+              alt="logo-opera"
+            />
+            <h2 class="font-semibold text-xl text-center mb-4">Add to Opera</h2>
+            <p class="text-grayishblue mb-10">Minimum version 46</p>
+            <img src="images/bg-dots.svg" class="mb-5" alt="bg-dots" />
+            <button
+              class="bg-softblue px-4 py-3 rounded-md text-white font-medium"
+            >
+              Add & Install Extension
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
