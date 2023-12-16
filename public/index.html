@@ -50,7 +50,7 @@
         </div>
       </div>
       <div
-        class="fixed opacity-0 -translate-y-full -translate-x-full transition ease-in-out duration-1000 md:hidden top-0 w-screen left-0 right-0 h-screen bg-darkblue bg-opacity-90 z-10"
+        class="fixed opacity-0 -translate-y-full transition ease-in-out duration-1000 md:hidden top-0 w-screen left-0 right-0 h-screen bg-darkblue bg-opacity-90 z-10"
         id="menu"
       >
         <div class="bg-darkblue bg-opacity-70 h-screen relative md:hidden">
@@ -219,7 +219,7 @@
           </div>
         </div>
       </section>
-      <section class="px-8">
+      <section class="px-8 mb-10">
         <div>
           <h2 class="font-semibold text-2xl text-center mb-4">
             Download the extension
@@ -231,7 +231,7 @@
         </div>
         <div>
           <div
-            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-2xl rounded-xl mb-6"
+            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-xl rounded-xl mb-8"
           >
             <img
               src="images/logo-chrome.svg"
@@ -250,7 +250,7 @@
             </button>
           </div>
           <div
-            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-xl rounded-xl mb-6"
+            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-xl rounded-xl mb-8"
           >
             <img
               src="images/logo-firefox.svg"
@@ -285,6 +285,134 @@
               Add & Install Extension
             </button>
           </div>
+        </div>
+      </section>
+      <section class="px-7">
+        <div>
+          <h2 class="font-semibold text-2xl text-center mb-4">
+            Frequently Asked Questions
+          </h2>
+          <p class="text-grayishblue mb-10 text-center">
+            Here are some of our FAQs. If you have any other questions you’d
+            like answered please feel free to email us.
+          </p>
+        </div>
+        <div class="border-b-2 border-gray-200 pb-2 overflow-hidden mb-10">
+          <div
+            class="flex items-center question justify-between cursor-pointer w-full mb-2"
+            id="question1"
+          >
+            <span class="font-medium text-black"> What is Bookmark?</span>
+            <span
+              ><img
+                src="images/icon-arrow.svg"
+                class="arrow transition ease-in-out duration-500"
+                alt="icon-arrow"
+                id="arrow1"
+            /></span>
+          </div>
+          <div
+            class="hidden text-grayishblue answer transition ease-in-out duration-700 duration-700"
+            id="answer1"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum
+              quis quam ornare mattis.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-b-2 border-gray-200 pb-2 overflow-hidden mb-10">
+          <div
+            class="flex items-center question justify-between cursor-pointer w-full mb-2"
+            id="question2"
+          >
+            <span class="font-medium text-black">
+              How can I request a new browser?
+            </span>
+            <span
+              ><img
+                src="images/icon-arrow.svg"
+                class="arrow transition ease-in-out duration-500"
+                alt="icon-arrow"
+                id="arrow2"
+            /></span>
+          </div>
+          <div
+            class="hidden mt-2 mb-3 text-grayishblue answer transition ease-in-out duration-700"
+            id="answer2"
+          >
+            <p>
+              Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+              massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus
+              eros aliquet convallis ultricies. Mauris augue massa, ultricies
+              non ligula. Suspendisse imperdie tVivamus luctus eros aliquet
+              convallis ultricies. Mauris augue massa, ultricies non ligula.
+              Suspendisse imperdiet.
+            </p>
+          </div>
+        </div>
+        <div class="border-b-2 border-gray-200 pb-2 overflow-hidden mb-10">
+          <div
+            class="flex items-center question justify-between cursor-pointer w-full mb-2"
+            id="question3"
+          >
+            <span class="font-medium text-black"> Is there a mobile app?</span>
+            <span
+              ><img
+                src="images/icon-arrow.svg"
+                class="arrow transition ease-in-out duration-500"
+                alt="icon-arrow"
+                id="arrow3"
+            /></span>
+          </div>
+          <div
+            class="hidden mt-2 mb-3 text-grayishblue answer transition ease-in-out duration-700"
+            id="answer3"
+          >
+            <p>
+              Sed consectetur quam id neque fermentum accumsan. Praesent luctus
+              vestibulum dolor, ut condimentum urna vulputate eget. Cras in
+              ligula quis est pharetra mattis sit amet pharetra purus. Sed
+              sollicitudin ex et ultricies bibendum.
+            </p>
+          </div>
+        </div>
+        <div class="border-b-2 border-gray-200 pb-2 overflow-hidden mb-10">
+          <div
+            class="flex items-center question justify-between cursor-pointer w-full mb-2"
+            id="question4"
+          >
+            <span class="font-medium text-black">
+              What about other Chromium browsers?
+            </span>
+            <span
+              ><img
+                src="images/icon-arrow.svg"
+                class="arrow transition ease-in-out duration-500"
+                alt="icon-arrow"
+                id="arrow4"
+            /></span>
+          </div>
+          <div
+            class="hidden mt-2 mb-3 text-grayishblue answer transition ease-in-out duration-700"
+            id="answer4"
+          >
+            <p>
+              Integer condimentum ipsum id imperdiet finibus. Vivamus in
+              placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida
+              pellentesque non ut velit.
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center justify-center mb-2">
+          <button
+            type="button"
+            class="bg-softblue px-4 py-3 rounded-md text-white font-medium"
+          >
+            More Info
+          </button>
         </div>
       </section>
     </main>
