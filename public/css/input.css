@@ -14,5 +14,5 @@
   @apply hover:border-2  hover:h-full hover:w-full hover:flex hover:items-center hover:justify-center hover:py-2 hover:border-white rounded-md;
 }
 #menu.active {
-  @apply translate-y-0;
+  @apply translate-x-0 translate-y-0  opacity-100;
 }
