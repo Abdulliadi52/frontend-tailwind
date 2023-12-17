@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/output.css" />
   </head>
   <body class="font-myfont">
-    <header class="relative">
+    <header class="relative lg:px-20">
       <div class="flex justify-between items-center md:pl-4 md:pr-10">
         <div class="flex justify-between items-center px-6 py-7 w-full">
           <a href="#"
@@ -94,26 +94,30 @@
       </div>
     </header>
     <main>
-      <section class="mb-20">
-        <div class="">
+      <section
+        class="mb-20 md:flex md:flex-row-reverse md:items-center md:gap-5 md:mt-10 md:justify-center lg:px-16"
+      >
+        <div class="md:max-w-width1">
           <img
-            class="w-full px-5"
+            class="w-full px-5 md:px-0"
             src="images/illustration-hero.svg"
             alt="illustration-hero"
           />
         </div>
-        <div class="px-6">
+        <div class="px-6 md:max-w-width1 md:text-left">
           <h2
-            class="text-center font-semibold min-[450px]:text-4xl min-[555px]:text-5xl sm:text-5xl text-3xl mb-3 leading-10"
+            class="text-center md:text-left md:text-3xl font-semibold min-[450px]:text-4xl min-[555px]:text-5xl sm:text-5xl text-3xl mb-3 leading-10"
           >
             A Simple Bookmark Manager
           </h2>
-          <p class="text-center leading-6 text-grayishblue mb-6">
+          <p class="text-center md:text-left leading-6 text-grayishblue mb-6">
             A clean and simple interface to organize your favourite websites.
             Open a new browser tab and see your sites load instantly. Try it for
             free.
           </p>
-          <div class="text-sm flex items-center justify-around">
+          <div
+            class="text-sm flex md:justify-start md:gap-10 items-center justify-around"
+          >
             <button
               type="button"
               class="bg-softblue px-4 py-3 rounded-md text-white font-medium"
@@ -129,109 +133,137 @@
           </div>
         </div>
       </section>
-      <section class="px-5">
-        <div>
+      <section class="px-5 md:px-14 lg:px-36">
+        <div class="md:flex flex-col items-center justify-center">
           <h2 class="font-semibold text-3xl text-center mb-4">Features</h2>
-          <p class="text-center text-grayishblue">
+          <p class="text-center text-grayishblue md:max-w-md">
             Our aim is to make it quick and easy for you to access your
             favourite websites. Your bookmarks sync between your devices so you
             can access them on the go.
           </p>
         </div>
-        <div>
-          <ul class="text-center mb-4 mt-6 text-xl font-normal">
-            <li class="border-t border-gray1 py-4">
+        <div class="md:mb-10 md:">
+          <ul
+            class="text-center mb-4 mt-6 text-xl font-normal md:flex md:items-center md:justify-between md:border-gray1 md:border-b-2"
+          >
+            <li class="border-t md: border-t-0 border-gray1 py-4">
               <span
                 class="underline-offset-under underline decoration-softred decoration-4"
                 >Simple Bookmarking</span
               >
             </li>
-            <li class="border-t border-gray1 py-4">
+            <li class="border-t md: border-t-0 border-gray1 py-4">
               <span>Speedy Searching</span>
             </li>
-            <li class="border-t border-b border-gray1 py-4">
+            <li
+              class="border-t md: border-t-0 md:border-b-0 border-b border-gray1 py-4"
+            >
               <span class="">Easy Sharing</span>
             </li>
           </ul>
         </div>
       </section>
-      <section class="px-6 py-6">
-        <div>
+      <section
+        class="px-8 py-6 md:flex md:gap-10 md:items-start md:justify-between lg:px-20"
+      >
+        <div class="md:max-w-width1">
           <img
             src="images/illustration-features-tab-1.svg"
             alt="illustration-features-tab-1"
             class="w-full mb-16"
           />
         </div>
-        <div>
-          <h2 class="font-semibold text-2xl text-center mb-4">
+        <div class="md:max-w-width1 min-[768px]:pt-4">
+          <h2
+            class="font-semibold text-2xl text-center md:text-left min-[768px]:mb-2 mb-4"
+          >
             Bookmark in one click
           </h2>
-          <p class="text-center text-grayishblue">
+          <p class="text-center md:text-left text-grayishblue md:mb-5">
             Organize your bookmarks however you like. Our simple drag-and-drop
             interface gives you complete control over how you manage your
             favourite sites.
           </p>
           <div>
-            <button class="hidden md:block">More Info</button>
+            <button
+              class="hidden md:block bg-softblue text-sm px-5 py-3 rounded-md text-white font-medium"
+            >
+              More Info
+            </button>
           </div>
         </div>
       </section>
-      <section class="px-6 py-6 hidden">
-        <div>
+      <section
+        class="px-6 py-6 md:flex md:gap-10 md:items-start md:justify-between hidden md:hidden lg:px-20"
+      >
+        <div class="md:max-w-width1">
           <img
             src="images/illustration-features-tab-2.svg"
             alt="illustration-features-tab-1"
             class="w-full mb-16"
           />
         </div>
-        <div>
+        <div class="md:max-w-width1 min-[768px]:pt-4">
           <h2 class="font-semibold text-2xl text-center mb-4">
             Intelligent search
           </h2>
-          <p class="text-center text-grayishblue">
+          <p class="text-center text-grayishblue md:text-left md:mb-5">
             Our powerful search feature will help you find saved sites in no
             time at all. No need to trawl through all of your bookmarks.
           </p>
           <div>
-            <button class="hidden md:block">More Info</button>
+            <button
+              class="hidden md:block bg-softblue text-sm px-5 py-3 rounded-md text-white font-medium"
+            >
+              More Info
+            </button>
           </div>
         </div>
       </section>
-      <section class="px-6 py-6 hidden">
-        <div>
+      <section
+        class="hidden md:hidden px-6 py-6 md:flex md:gap-10 md:items-start md:justify-between lg:px-20"
+      >
+        <div class="md:max-w-width1">
           <img
             src="images/illustration-features-tab-3.svg"
             alt="illustration-features-tab-1"
             class="w-full mb-16"
           />
         </div>
-        <div>
-          <h2 class="font-semibold text-2xl text-center mb-4">
+        <div class="md:max-w-width1 min-[768px]:pt-4">
+          <h2
+            class="font-semibold text-2xl text-center md:text-left min-[768px]:mb-2 mb-4"
+          >
             Share your bookmarks
           </h2>
-          <p class="text-center text-grayishblue">
+          <p class="text-center md:text-left text-grayishblue md:mb-5">
             Easily share your bookmarks and collections with others. Create a
             shareable link that you can send at the click of a button.
           </p>
           <div>
-            <button class="hidden md:block">More Info</button>
+            <button
+              class="hidden md:block bg-softblue text-sm px-5 py-3 rounded-md text-white font-medium"
+            >
+              More Info
+            </button>
           </div>
         </div>
       </section>
-      <section class="px-8 mb-10">
-        <div>
-          <h2 class="font-semibold text-2xl text-center mb-4">
+      <section class="px-8 mb-10 lg:px-36">
+        <div
+          class="md:flex md:flex-col md:items-center md:justify-center md:gap-10 md:h-fit"
+        >
+          <h2 class="font-semibold text-2xl text-center">
             Download the extension
           </h2>
-          <p class="text-center text-grayishblue mb-5">
+          <p class="text-center text-grayishblue mb-5 md:max-w-md">
             We’ve got more browsers in the pipeline. Please do let us know if
             you’ve got a favourite you’d like us to prioritize.
           </p>
         </div>
-        <div>
+        <div class="md:flex items-center justify-center gap-4">
           <div
-            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-xl rounded-xl mb-8"
+            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-xl rounded-xl mb-8 md:max-w-xs"
           >
             <img
               src="images/logo-chrome.svg"
@@ -250,7 +282,7 @@
             </button>
           </div>
           <div
-            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-xl rounded-xl mb-8"
+            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-xl rounded-xl mb-8 md:mt-16"
           >
             <img
               src="images/logo-firefox.svg"
@@ -269,7 +301,7 @@
             </button>
           </div>
           <div
-            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-2xl rounded-xl mb-3"
+            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-xl rounded-xl mb-3 md:mt-24"
           >
             <img
               src="images/logo-opera.svg"
@@ -287,17 +319,17 @@
           </div>
         </div>
       </section>
-      <section class="px-7 mb-20">
+      <section class="px-7 mb-20 md:flex flex-col items-center justify-center">
         <div>
           <h2 class="font-semibold text-2xl text-center mb-4">
             Frequently Asked Questions
           </h2>
-          <p class="text-grayishblue mb-10 text-center">
+          <p class="text-grayishblue mb-10 text-center max-w-md">
             Here are some of our FAQs. If you have any other questions you’d
             like answered please feel free to email us.
           </p>
         </div>
-        <div>
+        <div class="md:w-3/5">
           <div class="border-b-2 border-gray-200 pb-2 overflow-hidden mb-10">
             <div
               class="flex items-center question justify-between cursor-pointer w-full mb-2"
@@ -420,7 +452,7 @@
         </div>
       </section>
       <aside
-        class="flex flex-col items-center justify-center py-14 px-7 bg-softblue"
+        class="flex flex-col items-center justify-center py-14 px-7 bg-softblue lg:px-20"
       >
         <h4
           class="text-sm font-normal uppercase mb-3 tracking-widest text-white text-center"
@@ -430,16 +462,18 @@
         <h2 class="text-xl font-medium text-white mb-4 text-center">
           Stay up-to-date with what we’re doing
         </h2>
-        <div class="flex flex-col w-full px-3">
+        <div
+          class="flex flex-col md:px-0 md:items-center md:justify-center md:gap-5 md:flex-row w-full min-[500px]:w-4/5 px-3"
+        >
           <input
             type="email"
             id="email"
-            class="px-3 py-2 rounded-md placeholder:text-sm placeholder:font-medium placeholder:text-gray-300 mb-3 outline-none"
+            class="px-3 md:w-3/4 py-2 rounded-md placeholder:text-sm placeholder:font-medium placeholder:text-gray-300 mb-3 md:mb-0 outline-none"
             placeholder="Enter your email address"
           />
           <button
             type="button"
-            class="w-full px-3 py-2 flex items-center justify-center bg-softred border-0 rounded-md text-white cursor-pointer"
+            class="w-full md:max-w-width3 px-3 py-2 flex items-center justify-center bg-softred border-0 rounded-md text-white cursor-pointer"
           >
             Contact Us
           </button>
@@ -447,31 +481,31 @@
       </aside>
     </main>
     <footer
-      class="px-5 py-8 bg-darkblue opacity-100 flex flex-col items-center justify-center text-center"
+      class="px-5 py-8 bg-darkblue opacity-100 flex flex-col items-center justify-center text-center md:flex-row md:justify-between md:px-16 md:text-xs lg:px-20"
     >
-      <div>
-        <img src="images/footer logo.svg" class="mb-8" alt="footer" />
+      <div class="md:flex md:items-center md:justify-start md:gap-12 md:w-3/4">
+        <img src="images/footer logo.svg" class="mb-8 md:mb-0" alt="footer" />
         <div>
-          <ul class="text-white">
+          <ul class="text-white md:flex md:gap-4">
             <li
-              class="mb-5 uppercase font-normal tracking-wider text-sm cursor-pointer"
+              class="mb-5 md:mb-0 uppercase font-normal tracking-wider text-sm cursor-pointer"
             >
               Features
             </li>
             <li
-              class="mb-5 uppercase font-normal tracking-wider text-sm cursor-pointer"
+              class="mb-5 md:mb-0 uppercase font-normal tracking-wider text-sm cursor-pointer"
             >
               Pricing
             </li>
             <li
-              class="mb-5 uppercase font-normal tracking-wider text-sm cursor-pointer"
+              class="mb-5 md:mb-0 uppercase font-normal tracking-wider text-sm cursor-pointer"
             >
               Contact
             </li>
           </ul>
         </div>
       </div>
-      <div class="flex gap-8">
+      <div class="flex gap-8 md:w-3/12 md:justify-end">
         <a href="#">
           <img
             src="images/icon-facebook.svg"

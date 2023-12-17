@@ -19,6 +19,12 @@ module.exports = {
       textUnderlineOffset: {
         under: "19px",
       },
+      maxWidth: {
+        width1: "50%",
+        width2: "100%",
+        width3: "30%",
+        width4: "70%",
+      },
     },
   },
   plugins: [],
