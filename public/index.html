@@ -146,17 +146,21 @@
           <ul
             class="text-center mb-4 mt-6 text-xl font-normal md:flex md:items-center md:justify-between md:border-gray1 md:border-b-2"
           >
-            <li class="border-t md: border-t-0 border-gray1 py-4">
-              <span
-                class="underline-offset-under underline decoration-softred decoration-4"
-                >Simple Bookmarking</span
-              >
+            <li
+              class="border-t md:border-t-0 border-gray1 py-4 cursor-pointer"
+              id="btns"
+            >
+              <span class="test" id="test">Simple Bookmarking</span>
             </li>
-            <li class="border-t md: border-t-0 border-gray1 py-4">
+            <li
+              class="border-t md:border-t-0 border-gray1 py-4 cursor-pointer"
+              id="btns"
+            >
               <span>Speedy Searching</span>
             </li>
             <li
-              class="border-t md: border-t-0 md:border-b-0 border-b border-gray1 py-4"
+              class="border-t md:border-t-0 md:border-b-0 border-b border-gray1 py-4 cursor-pointer"
+              id="btns"
             >
               <span class="">Easy Sharing</span>
             </li>
@@ -165,6 +169,7 @@
       </section>
       <section
         class="px-8 py-6 md:flex md:gap-10 md:items-start md:justify-between lg:px-20"
+        id="show"
       >
         <div class="md:max-w-width1">
           <img
@@ -194,7 +199,8 @@
         </div>
       </section>
       <section
-        class="px-6 py-6 md:flex md:gap-10 md:items-start md:justify-between hidden md:hidden lg:px-20"
+        class="px-6 py-6 md:flex md:gap-10 md:items-start md:justify-between hid lg:px-20"
+        id="show"
       >
         <div class="md:max-w-width1">
           <img
@@ -221,7 +227,8 @@
         </div>
       </section>
       <section
-        class="hidden md:hidden px-6 py-6 md:flex md:gap-10 md:items-start md:justify-between lg:px-20"
+        class="px-6 py-6 md:flex md:gap-10 md:items-start hid md:justify-between lg:px-20"
+        id="show"
       >
         <div class="md:max-w-width1">
           <img
@@ -345,7 +352,7 @@
               /></span>
             </div>
             <div
-              class="hidden text-grayishblue answer transition ease-in-out duration-700 duration-700"
+              class="hidden text-grayishblue answer transition ease-in-out duration-700"
               id="answer1"
             >
               <p>
@@ -523,5 +530,6 @@
       </div>
     </footer>
     <script src="app.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

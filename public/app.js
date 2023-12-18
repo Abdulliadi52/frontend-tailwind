@@ -21,9 +21,11 @@ const arrowFour = document.getElementById("arrow4");
 
 openBtn.addEventListener("click", () => {
   menu.classList.add("active");
+  document.body.classList.add("static");
 });
 closeBtn.addEventListener("click", () => {
   menu.classList.remove("active");
+  document.body.classList.remove("static");
 });
 questionOne.addEventListener("click", () => {
   answerOne.classList.toggle("active");

@@ -22,3 +22,13 @@
 .arrow.active {
   @apply rotate-180 text-red-600;
 }
+.static {
+  @apply fixed;
+}
+span.active,
+.test {
+  @apply underline-offset-under underline decoration-softred decoration-4;
+}
+#show.hid {
+  @apply hidden;
+}
