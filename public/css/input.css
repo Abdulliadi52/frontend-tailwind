@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .change {
-  @apply hover:border-2 hover:border-softred hover:bg-transparent hover:text-softred transition ease-in-out duration-300;
+  @apply hover:bg-gradient-to-r hover:from-black hover:via-black hover:to-black hover:border-2 border-color2 hover:text-color2 transition ease-in-out duration-300;
 }
 .trans {
   @apply transition ease-in-out duration-300;
@@ -20,14 +20,14 @@
   @apply translate-x-0 block;
 }
 .arrow.active {
-  @apply rotate-180 text-red-600;
+  @apply rotate-180;
 }
 .static {
   @apply fixed;
 }
 span.active,
 .test {
-  @apply underline-offset-under underline decoration-softred decoration-4;
+  @apply underline-offset-under underline decoration-color2 decoration-4;
 }
 #show.hid {
   @apply hidden;

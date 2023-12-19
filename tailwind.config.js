@@ -12,6 +12,9 @@ module.exports = {
         grayishblue: "hsl(229, 8%, 60%)",
         darkblue: "hsl(229, 31%, 21%)",
         gray1: "rgba(211, 211, 211, 0.5)",
+        color1: "#B5734C",
+        color2: "#F59115",
+        color3: "#46332E",
       },
       fontSize: {
         mysize: "18px",

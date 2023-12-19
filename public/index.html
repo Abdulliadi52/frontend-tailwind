@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/output.css" />
   </head>
-  <body class="font-myfont">
+  <body class="font-myfont bg-black text-white">
     <header class="relative lg:px-20">
       <div class="flex justify-between items-center md:pl-4 md:pr-10">
         <div class="flex justify-between items-center px-6 py-7 w-full">
@@ -25,23 +25,17 @@
             <ul
               class="flex justify-center items-center gap-10 text-sm uppercase font-medium"
             >
-              <li
-                class="hover:text-softred tracking-wider cursor-pointer trans"
-              >
+              <li class="hover:text-color2 tracking-wider cursor-pointer trans">
                 Features
               </li>
-              <li
-                class="hover:text-softred tracking-wider cursor-pointer trans"
-              >
+              <li class="hover:text-color2 tracking-wider cursor-pointer trans">
                 Pricing
               </li>
-              <li
-                class="hover:text-softred tracking-wider cursor-pointer trans"
-              >
+              <li class="hover:text-color2 tracking-wider cursor-pointer trans">
                 Contact
               </li>
               <li
-                class="bg-softred change tracking-wider text-white px-5 py-2 flex items-center justify-center rounded-md cursor-pointer"
+                class="bg-gradient-to-r from-yellow-500 via-red-500 to-gray-800 w-fit change transition-all ease-in-out duration-700 tracking-wider text-white px-5 py-2 flex items-center justify-center rounded-md cursor-pointer"
               >
                 Login
               </li>
@@ -50,10 +44,10 @@
         </div>
       </div>
       <div
-        class="fixed opacity-0 -translate-y-full transition ease-in-out duration-1000 md:hidden top-0 w-screen left-0 right-0 h-screen bg-darkblue bg-opacity-90 z-10"
+        class="fixed opacity-0 -translate-y-full transition ease-in-out duration-1000 md:hidden top-0 w-screen left-0 right-0 h-screen z-10"
         id="menu"
       >
-        <div class="bg-darkblue bg-opacity-70 h-screen relative md:hidden">
+        <div class="bg-black bg-opacity-90 h-screen relative md:hidden">
           <div class="flex justify-between mb-4 items-center px-6 py-7">
             <img src="images/change.svg" alt="logo-bookmark" />
             <img src="images/icon-close.svg" alt="icon-close" id="close-btn" />
@@ -120,13 +114,13 @@
           >
             <button
               type="button"
-              class="bg-softblue px-4 py-3 rounded-md text-white font-medium"
+              class="bg-gradient-to-r from-yellow-500 via-red-500 to-gray-800 w-fit px-4 py-3 rounded-md text-white font-medium change transition ease-in-out duration-500"
             >
               Get it on Chrome
             </button>
             <button
               type="button"
-              class="px-4 py-3 rounded-md bg-gray-100 text-black border border-gray-100 drop-shadow-xl font-medium"
+              class="px-4 py-3 rounded-md hover:bg-black hover:border-gray-100 hover:text-gray-100 transition ease-in-out duration-500 bg-gray-100 text-black border border-gray-100 drop-shadow-xl font-medium"
             >
               Get it on Firefox
             </button>
@@ -191,7 +185,7 @@
           </p>
           <div>
             <button
-              class="hidden md:block bg-softblue text-sm px-5 py-3 rounded-md text-white font-medium"
+              class="hidden md:block bg-gradient-to-r from-yellow-500 via-red-500 to-gray-800 w-fit change text-sm px-5 py-3 rounded-md text-white font-medium"
             >
               More Info
             </button>
@@ -219,7 +213,7 @@
           </p>
           <div>
             <button
-              class="hidden md:block bg-softblue text-sm px-5 py-3 rounded-md text-white font-medium"
+              class="hidden md:block bg-gradient-to-r from-yellow-500 via-red-500 to-gray-800 w-fit change text-sm px-5 py-3 rounded-md text-white font-medium"
             >
               More Info
             </button>
@@ -249,7 +243,7 @@
           </p>
           <div>
             <button
-              class="hidden md:block bg-softblue text-sm px-5 py-3 rounded-md text-white font-medium"
+              class="hidden md:block bg-gradient-to-r from-yellow-500 via-red-500 to-gray-800 w-fit change text-sm px-5 py-3 rounded-md text-white font-medium"
             >
               More Info
             </button>
@@ -270,45 +264,45 @@
         </div>
         <div class="md:flex items-center justify-center gap-4">
           <div
-            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-xl rounded-xl mb-8 md:max-w-xs"
+            class="flex flex-col items-center py-5 justify-center border-2 border-color2 shadow-lg shadow-color2 rounded-xl mb-8 md:max-w-xs"
           >
             <img
               src="images/logo-chrome.svg"
               class="w-20 mb-3"
               alt="logo-chrome"
             />
-            <h2 class="font-semibold text-xl text-center mb-4">
+            <h2 class="font-semibold text-xl text-center mb-4 text-white">
               Add to Chrome
             </h2>
             <p class="text-grayishblue mb-10">Minimum version 62</p>
             <img src="images/bg-dots.svg" class="mb-5" alt="bg-dots" />
             <button
-              class="bg-softblue px-4 py-3 rounded-md text-white font-medium"
+              class="bg-gradient-to-r from-yellow-500 via-red-500 to-gray-800 w-fit px-4 py-3 rounded-md text-white font-medium change"
             >
               Add & Install Extension
             </button>
           </div>
           <div
-            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-xl rounded-xl mb-8 md:mt-16"
+            class="flex flex-col items-center py-5 justify-center border-2 border-color2 shadow-lg shadow-color2 rounded-xl mb-8 md:mt-16"
           >
             <img
               src="images/logo-firefox.svg"
               class="w-20 mb-3"
               alt="logo-firefox"
             />
-            <h2 class="font-semibold text-xl text-center mb-4">
+            <h2 class="font-semibold text-xl text-center mb-4 text-white">
               Add to Firefox
             </h2>
             <p class="text-grayishblue mb-10">Minimum version 55</p>
             <img src="images/bg-dots.svg" class="mb-5" alt="bg-dots" />
             <button
-              class="bg-softblue px-4 py-3 rounded-md text-white font-medium"
+              class="bg-gradient-to-r from-yellow-500 via-red-500 to-gray-800 w-fit px-4 py-3 rounded-md text-white font-medium change"
             >
               Add & Install Extension
             </button>
           </div>
           <div
-            class="flex flex-col items-center py-5 justify-center border-2 border-white shadow-xl rounded-xl mb-3 md:mt-24"
+            class="flex flex-col items-center py-5 justify-center border-2 border-color2 shadow-lg rounded-xl mb-3 md:mt-24 shadow-color2"
           >
             <img
               src="images/logo-opera.svg"
@@ -319,7 +313,7 @@
             <p class="text-grayishblue mb-10">Minimum version 46</p>
             <img src="images/bg-dots.svg" class="mb-5" alt="bg-dots" />
             <button
-              class="bg-softblue px-4 py-3 rounded-md text-white font-medium"
+              class="bg-gradient-to-r from-yellow-500 via-red-500 to-gray-800 w-fit px-4 py-3 rounded-md text-white font-medium change"
             >
               Add & Install Extension
             </button>
@@ -342,7 +336,7 @@
               class="flex items-center question justify-between cursor-pointer w-full mb-2"
               id="question1"
             >
-              <span class="font-medium text-black"> What is Bookmark?</span>
+              <span class="font-medium text-white"> What is Bookmark?</span>
               <span
                 ><img
                   src="images/icon-arrow.svg"
@@ -368,7 +362,7 @@
               class="flex items-center question justify-between cursor-pointer w-full mb-2"
               id="question2"
             >
-              <span class="font-medium text-black">
+              <span class="font-medium text-white">
                 How can I request a new browser?
               </span>
               <span
@@ -398,7 +392,7 @@
               class="flex items-center question justify-between cursor-pointer w-full mb-2"
               id="question3"
             >
-              <span class="font-medium text-black">
+              <span class="font-medium text-white">
                 Is there a mobile app?</span
               >
               <span
@@ -426,7 +420,7 @@
               class="flex items-center question justify-between cursor-pointer w-full mb-2"
               id="question4"
             >
-              <span class="font-medium text-black">
+              <span class="font-medium text-white">
                 What about other Chromium browsers?
               </span>
               <span
@@ -452,14 +446,14 @@
         <div class="flex items-center justify-center mb-2">
           <button
             type="button"
-            class="bg-softblue text-sm px-5 py-3 rounded-md text-white font-medium"
+            class="bg-gradient-to-r from-yellow-500 via-red-500 to-gray-800 w-fit text-sm px-5 py-3 rounded-md text-white font-medium"
           >
             More Info
           </button>
         </div>
       </section>
       <aside
-        class="flex flex-col items-center justify-center py-14 px-7 bg-softblue lg:px-20"
+        class="flex flex-col items-center justify-center py-14 px-7 bg-gradient-to-r from-yellow-500 via-red-500 to-gray-800 lg:px-20"
       >
         <h4
           class="text-sm font-normal uppercase mb-3 tracking-widest text-white text-center"
@@ -480,7 +474,7 @@
           />
           <button
             type="button"
-            class="w-full md:max-w-width3 px-3 py-2 flex items-center justify-center bg-softred border-0 rounded-md text-white cursor-pointer"
+            class="w-full md:max-w-width3 px-3 py-2 flex items-center justify-center bg-color3 border-0 rounded-md text-white cursor-pointer"
           >
             Contact Us
           </button>
@@ -488,7 +482,7 @@
       </aside>
     </main>
     <footer
-      class="px-5 py-8 bg-darkblue opacity-100 flex flex-col items-center justify-center text-center md:flex-row md:justify-between md:px-16 md:text-xs lg:px-20"
+      class="px-5 py-8 bg-color3 opacity-100 flex flex-col items-center justify-center text-center md:flex-row md:justify-between md:px-16 md:text-xs lg:px-20"
     >
       <div class="md:flex md:items-center md:justify-start md:gap-12 md:w-3/4">
         <img src="images/footer logo.svg" class="mb-8 md:mb-0" alt="footer" />
