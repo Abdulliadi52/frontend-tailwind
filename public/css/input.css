@@ -32,3 +32,25 @@ span.active,
 #show.hid {
   @apply hidden;
 }
+.source::before {
+  position: absolute;
+  content: "";
+  top: 40%;
+  left: 30%;
+  right: -20px;
+  bottom: 0;
+  background-color: #f59115;
+  z-index: -1;
+  border-bottom-left-radius: 100px;
+}
+.filt::before {
+  position: absolute;
+  content: "";
+  top: 40%;
+  left: -100%;
+  right: 30%;
+  bottom: -30px;
+  background-color: #f59115;
+  z-index: -1;
+  border-bottom-right-radius: 100px;
+}
